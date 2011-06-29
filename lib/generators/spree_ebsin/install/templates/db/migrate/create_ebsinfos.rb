@@ -4,7 +4,6 @@ class CreateEbsinfos < ActiveRecord::Migration
       t.string :first_name
       t.string :last_name
       t.string :order_number
-      t.string :order_id
       t.string :MerchantRefNo
       t.string :TransactionId
       t.string :PaymentId

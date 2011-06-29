@@ -72,7 +72,6 @@ class Gateway::EbsinController < Spree::BaseController
     fake_card = Ebsinfo.new({    :first_name          => @order.bill_address.firstname,
                                  :last_name           => @order.bill_address.lastname,
                                  :order_number        => @order.number,
-                                 :order_id            => @order.id,
                                  :MerchantRefNo       => data["MerchantRefNo"],
                                  :TransactionId       => data["TransactionID"],
                                  :PaymentId           => data["PaymentID"] })
